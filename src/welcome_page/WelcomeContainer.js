@@ -1,10 +1,18 @@
 import styled from 'styled-components';
 
-const HeaderBar = styled.div`
+const WelcomeContainer = styled.div`
   background-color: grey;
   width: 60vw;
   height: 60vh;
   margin: 10vh auto;
+
+  @media only screen and (max-width: 600px) {
+    & {
+      width: 80vw;
+      height: 80vh;
+      margin-top: 5vh;
+    }
+  }
 `;
 
-export default HeaderBar;
+export default WelcomeContainer;
