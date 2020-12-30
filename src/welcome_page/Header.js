@@ -1,7 +1,8 @@
 import React from 'react';
+import HeaderBar from './HeaderBar';
 
 function Header() {
-  return <div></div>;
+  return <HeaderBar>Header</HeaderBar>;
 }
 
 export default Header;
