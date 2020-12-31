@@ -1,10 +1,11 @@
 import React from 'react';
+import LoginContainer from './LoginContainer';
 import { GoogleLoginButton } from 'react-social-login-buttons';
 import { FacebookLoginButton } from 'react-social-login-buttons';
 
 function Login() {
   return (
-    <div>
+    <LoginContainer>
       <input type='text'></input>
       <br></br>
       <input type='text'></input>
@@ -13,7 +14,7 @@ function Login() {
       <button>Login</button>
       <GoogleLoginButton onClick={() => alert('Hello')} />
       <FacebookLoginButton onClick={() => alert('Hello')} />
-    </div>
+    </LoginContainer>
   );
 }
 
