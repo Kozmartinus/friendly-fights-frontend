@@ -1,6 +1,7 @@
 import React from 'react';
 import WelcomeContainer from './WelcomeContainer';
 import WelcomeTextBox from './WelcomeTextBox';
+import UserBox from './UserBox';
 
 function WelcomeCard() {
   return (
@@ -12,6 +13,7 @@ function WelcomeCard() {
         <p>Organize your groups, record and follow your results</p>
         <p>Ready to go? Who will be the champion today?</p>
       </WelcomeTextBox>
+      <UserBox />
     </WelcomeContainer>
   );
 }
