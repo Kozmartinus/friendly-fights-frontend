@@ -4,14 +4,17 @@ const UserContainer = styled.div`
   background-color: pink;
   width: 40%;
   height: 100%;
+  overflow-y: auto;
 
   .buttonBox {
-    margin-top: 15%;
+    height: 10%;
 
     display: flex;
     justify-content: space-around;
+    align-items: flex-end;
 
     button {
+      height: 75%;
       width: 75px;
     }
 
@@ -27,7 +30,8 @@ const UserContainer = styled.div`
     }
 
     .buttonBox {
-      margin: 10% 0;
+      /* margin: 10% 0; */
+      height: 10%;
     }
   }
 `;

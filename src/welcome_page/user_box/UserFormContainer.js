@@ -5,6 +5,7 @@ const UserFormContainer = styled.div`
   border: solid black 3px;
   padding: 20px 20px 0 20px;
   margin: 0 10px;
+  /* height:  */
 
   input {
     width: 50%;
@@ -29,6 +30,10 @@ const UserFormContainer = styled.div`
     .socialMediaLoginButton {
       font-size: 80% !important;
       font-weight: 700;
+    }
+
+    p {
+      margin: 0;
     }
   }
 `;

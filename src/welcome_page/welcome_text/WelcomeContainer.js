@@ -14,6 +14,9 @@ const WelcomeContainer = styled.div`
       width: 80vw;
       height: 80vh;
       margin: 5vh auto;
+
+      display: flex;
+      flex-direction: column;
     }
   }
 `;
