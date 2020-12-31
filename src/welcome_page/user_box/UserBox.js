@@ -9,8 +9,10 @@ function UserBox() {
 
   return (
     <UserContainer>
-      <button onClick={() => setMode('login')}>Login</button>
-      <button onClick={() => setMode('register')}>Register</button>
+      <div className='buttonBox'>
+        <button onClick={() => setMode('login')}>Login</button>
+        <button onClick={() => setMode('register')}>Register</button>
+      </div>
       {mode === 'login' ? <Login /> : <Register />}
     </UserContainer>
   );

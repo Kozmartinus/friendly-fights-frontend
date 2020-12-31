@@ -7,8 +7,7 @@ const WelcomeTextBox = styled.div`
   text-align: center;
 
   h2 {
-    padding-top: 10%;
-    margin-bottom: 10%;
+    margin: 10% 0;
   }
 
   @media only screen and (max-width: 600px) {
@@ -18,7 +17,6 @@ const WelcomeTextBox = styled.div`
     }
     h2 {
       font-size: 20px;
-      padding-top: 0;
     }
   }
 `;

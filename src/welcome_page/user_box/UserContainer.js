@@ -5,10 +5,26 @@ const UserContainer = styled.div`
   width: 40%;
   height: 100%;
 
+  .buttonBox {
+    margin: 15% 0;
+    background-color: brown;
+
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      width: 75px;
+    }
+  }
+
   @media only screen and (max-width: 600px) {
     & {
       width: 100%;
       height: 50%;
+    }
+
+    .buttonBox {
+      margin: 10% 0;
     }
   }
 `;
