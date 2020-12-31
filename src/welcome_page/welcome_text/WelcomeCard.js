@@ -1,7 +1,7 @@
 import React from 'react';
 import WelcomeContainer from './WelcomeContainer';
 import WelcomeTextBox from './WelcomeTextBox';
-import UserBox from './UserBox';
+import UserBox from '../user_box/UserBox';
 
 function WelcomeCard() {
   return (
