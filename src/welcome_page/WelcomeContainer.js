@@ -6,6 +6,8 @@ const WelcomeContainer = styled.div`
   height: 60vh;
   margin: 12.5vh auto;
 
+  display: flex;
+
   @media only screen and (max-width: 600px) {
     & {
       width: 80vw;
