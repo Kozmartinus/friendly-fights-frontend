@@ -5,7 +5,6 @@ const UserFormContainer = styled.div`
   border: solid black 3px;
   padding: 20px 20px 0 20px;
   margin: 0 10px;
-  /* height:  */
 
   input {
     width: 50%;
@@ -16,6 +15,11 @@ const UserFormContainer = styled.div`
 
   #loginConfirmationButton {
     margin-bottom: 20px;
+  }
+
+  #forgotPassword:hover {
+    font-weight: 900;
+    cursor: pointer;
   }
 
   .socialMediaLoginButton {

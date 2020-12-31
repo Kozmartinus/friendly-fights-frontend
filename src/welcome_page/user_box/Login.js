@@ -3,6 +3,9 @@ import UserFormContainer from './UserFormContainer';
 import { GoogleLoginButton } from 'react-social-login-buttons';
 import { FacebookLoginButton } from 'react-social-login-buttons';
 
+const forgotPasswordAction = () =>
+  alert('Shame on you, we do not have any smart solution for this yet');
+
 function Login() {
   return (
     <UserFormContainer>
@@ -11,7 +14,9 @@ function Login() {
       <input type='password' placeholder='Password'></input>
       <br></br>
       <p>Invalid username or password!</p>
-      <p>Forgot my password</p>
+      <p id='forgotPassword' onClick={() => forgotPasswordAction()}>
+        Forgot my password
+      </p>
       <button id='loginConfirmationButton'>Login</button>
       <GoogleLoginButton
         className='socialMediaLoginButton'
