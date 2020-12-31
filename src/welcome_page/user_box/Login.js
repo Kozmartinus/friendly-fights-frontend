@@ -11,9 +11,17 @@ function Login() {
       <input type='text'></input>
       <br></br>
       <p>Forgot my password</p>
-      <button>Login</button>
-      <GoogleLoginButton onClick={() => alert('Hello')} />
-      <FacebookLoginButton onClick={() => alert('Hello')} />
+      <button id='loginConfirmationButton'>Login</button>
+      <GoogleLoginButton
+        className='socialMediaLoginButton'
+        onClick={() => alert('Hello')}
+        iconSize='20px'
+      />
+      <FacebookLoginButton
+        className='socialMediaLoginButton'
+        onClick={() => alert('Hello')}
+        iconSize='20px'
+      />
     </LoginContainer>
   );
 }
