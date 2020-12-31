@@ -14,6 +14,10 @@ const UserContainer = styled.div`
     button {
       width: 75px;
     }
+
+    .active {
+      background-color: grey;
+    }
   }
 
   @media only screen and (max-width: 600px) {
