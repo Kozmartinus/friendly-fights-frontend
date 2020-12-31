@@ -6,10 +6,11 @@ import { FacebookLoginButton } from 'react-social-login-buttons';
 function Login() {
   return (
     <UserFormContainer>
-      <input type='text'></input>
+      <input type='text' placeholder='Username'></input>
       <br></br>
-      <input type='text'></input>
+      <input type='password' placeholder='Password'></input>
       <br></br>
+      <p>Invalid username or password!</p>
       <p>Forgot my password</p>
       <button id='loginConfirmationButton'>Login</button>
       <GoogleLoginButton

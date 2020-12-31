@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 const UserFormContainer = styled.div`
-  background-color: purple;
   text-align: center;
+  border: solid black 3px;
+  padding: 20px 20px 0 20px;
+  margin: 0 10px;
 
   input {
     width: 50%;

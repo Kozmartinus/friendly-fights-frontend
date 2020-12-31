@@ -6,7 +6,7 @@ const UserContainer = styled.div`
   height: 100%;
 
   .buttonBox {
-    margin: 15% 0;
+    margin-top: 15%;
 
     display: flex;
     justify-content: space-around;
