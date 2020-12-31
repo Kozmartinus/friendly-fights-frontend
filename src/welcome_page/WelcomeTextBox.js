@@ -10,6 +10,17 @@ const WelcomeTextBox = styled.div`
     padding-top: 10%;
     margin-bottom: 10%;
   }
+
+  @media only screen and (max-width: 600px) {
+    & {
+      width: 100%;
+      height: 50%;
+    }
+    h2 {
+      font-size: 20px;
+      padding-top: 0;
+    }
+  }
 `;
 
 export default WelcomeTextBox;

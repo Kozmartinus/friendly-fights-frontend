@@ -7,12 +7,13 @@ const WelcomeContainer = styled.div`
   margin: 12.5vh auto;
 
   display: flex;
+  flex-wrap: wrap;
 
   @media only screen and (max-width: 600px) {
     & {
       width: 80vw;
       height: 80vh;
-      margin-top: 5vh;
+      margin: 5vh auto;
     }
   }
 `;
