@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 
 const WelcomeTextBox = styled.div`
-  background-color: orange;
+  background: linear-gradient(
+    to right,
+    rgba(6, 6, 84, 0.7),
+    rgba(6, 6, 84, 0) 66%
+  );
   width: 60%;
   height: 100%;
   text-align: center;

@@ -1,25 +1,31 @@
 import styled from 'styled-components';
 
 const UserContainer = styled.div`
-  background-color: pink;
+  background-color: rgba(6, 6, 84, 0.3);
+  background: linear-gradient(to right, rgba(6, 6, 84, 0), rgba(6, 6, 84, 0.7));
   width: 40%;
   height: 100%;
   overflow-y: auto;
 
   .buttonBox {
     height: 10%;
+    margin-bottom: -3px;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: flex-end;
 
     button {
+      margin-left: 20px;
       height: 75%;
       width: 75px;
+      outline: none;
+      cursor: pointer;
+      border-bottom: black solid 3px;
     }
 
     .active {
-      background-color: grey;
+      border: black solid 3px;
     }
   }
 
@@ -30,7 +36,6 @@ const UserContainer = styled.div`
     }
 
     .buttonBox {
-      /* margin: 10% 0; */
       height: 10%;
     }
   }

@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 const UserFormContainer = styled.div`
+  background-color: rgba(255, 255, 255, 0.3);
   text-align: center;
   border: solid black 3px;
+  border-collapse: collapse;
   padding: 20px 20px 0 20px;
   margin: 0 10px;
 

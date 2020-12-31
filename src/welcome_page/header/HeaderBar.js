@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const HeaderBar = styled.header`
-  background-color: blue;
+  background-color: rgba(6, 6, 84, 0.7);
   width: 100vw;
   height: 15vh;
 
