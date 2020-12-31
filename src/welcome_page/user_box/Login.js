@@ -1,11 +1,11 @@
 import React from 'react';
-import LoginContainer from './LoginContainer';
+import UserFormContainer from './UserFormContainer';
 import { GoogleLoginButton } from 'react-social-login-buttons';
 import { FacebookLoginButton } from 'react-social-login-buttons';
 
 function Login() {
   return (
-    <LoginContainer>
+    <UserFormContainer>
       <input type='text'></input>
       <br></br>
       <input type='text'></input>
@@ -22,7 +22,7 @@ function Login() {
         onClick={() => alert('Hello')}
         iconSize='20px'
       />
-    </LoginContainer>
+    </UserFormContainer>
   );
 }
 

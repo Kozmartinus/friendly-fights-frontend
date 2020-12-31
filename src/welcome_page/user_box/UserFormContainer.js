@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const LoginContainer = styled.div`
+const UserFormContainer = styled.div`
   background-color: purple;
   text-align: center;
 
@@ -31,4 +31,4 @@ const LoginContainer = styled.div`
   }
 `;
 
-export default LoginContainer;
+export default UserFormContainer;
