@@ -1,11 +1,13 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const WelcomeContainer = styled.div`
-  background-color: grey;
+  background-color: rgba(220, 220, 220, 0.9);
   width: 60vw;
   height: 60vh;
-  margin: 12.5vh auto;
-
+  /* opacity: 0.9; */
+  margin: 0 auto 12.5vh auto;
+  padding-top: 12.5vh;
+  background-clip: content-box;
   display: flex;
   flex-wrap: wrap;
 

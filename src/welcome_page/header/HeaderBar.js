@@ -1,8 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const HeaderBar = styled.header`
   background-color: rgba(6, 6, 84, 0.7);
-  width: 100vw;
+  width: 100%;
   height: 15vh;
 
   display: flex;
