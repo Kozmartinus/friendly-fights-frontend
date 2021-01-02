@@ -7,6 +7,12 @@ function Register() {
   const passwordOne = useRef(null);
   const passwordTwo = useRef(null);
 
+  const fileInput = useRef(null);
+
+  const openFileBrowser = () => {
+    fileInput.current.click();
+  };
+
   const checkRegistration = () => {
     const userNameInput = userName.current.value;
     const passwordOneInput = passwordOne.current.value;
@@ -39,8 +45,8 @@ function Register() {
       <br></br>
       <p>{errorMessage}</p>
       <span>Upload profile picture</span>
-      <button>Browse</button>
-      <input type='file'></input>
+      <button onClick={openFileBrowser}>Browse</button>
+      <input type='file' ref={fileInput}></input>
       <br></br>
       <button id='loginConfirmationButton' onClick={checkRegistration}>
         Register
