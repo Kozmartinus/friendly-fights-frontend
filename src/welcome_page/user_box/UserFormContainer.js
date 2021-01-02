@@ -5,6 +5,7 @@ const UserFormContainer = styled.div`
   text-align: center;
   border: solid black 3px;
   border-collapse: collapse;
+  border-radius: 20px;
   padding: 20px 20px 0 20px;
   margin: 0 10px;
 
