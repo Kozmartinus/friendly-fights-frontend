@@ -5,7 +5,7 @@ const WelcomeContainer = styled.div`
   width: 60vw;
   height: 60vh;
   margin: 0 auto 12.5vh auto;
-  /* padding-top: 12.5vh; */
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   background-clip: content-box;
   display: flex;
   flex-wrap: wrap;
