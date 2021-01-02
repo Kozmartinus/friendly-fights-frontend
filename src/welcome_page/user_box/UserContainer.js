@@ -6,6 +6,7 @@ const UserContainer = styled.div`
   width: 40%;
   height: 100%;
   overflow-y: auto;
+  border-radius: 20px;
 
   .buttonBox {
     height: 10%;
@@ -31,8 +32,14 @@ const UserContainer = styled.div`
 
   @media only screen and (max-width: 600px) {
     & {
+      background: linear-gradient(
+        to bottom,
+        rgba(6, 6, 84, 0),
+        rgba(6, 6, 84, 0.7)
+      );
       width: 100%;
       height: 50%;
+      border-radius: 0 0 20px 20px;
     }
 
     .buttonBox {

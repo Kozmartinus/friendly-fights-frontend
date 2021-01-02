@@ -5,17 +5,19 @@ const WelcomeContainer = styled.div`
   width: 60vw;
   height: 60vh;
   margin: 0 auto 12.5vh auto;
-  padding-top: 12.5vh;
+  /* padding-top: 12.5vh; */
   background-clip: content-box;
   display: flex;
   flex-wrap: wrap;
+  border: solid white 2px;
+  border-radius: 20px;
 
   @media only screen and (max-width: 600px) {
     & {
       width: 80vw;
       height: 80vh;
       margin: 0 auto 5vh auto;
-      padding-top: 5vh;
+      /* padding-top: 5vh; */
 
       display: flex;
       flex-direction: column;
