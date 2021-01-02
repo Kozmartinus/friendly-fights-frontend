@@ -19,7 +19,6 @@ function Register() {
     event.stopPropagation();
     const file = event.target.files[0];
     setProfilePicture(file);
-    console.log(file);
   };
 
   const checkRegistration = () => {
@@ -54,9 +53,7 @@ function Register() {
       <br></br>
       <p>{errorMessage}</p>
       <span>
-        {profilePicture !== null
-          ? profilePicture.name
-          : 'Upload profile picture'}
+        {profilePicture ? profilePicture.name : 'Upload profile picture'}
       </span>
       <button onClick={openFileBrowser}>
         {profilePicture === null ? 'Browse' : 'Modify'}
