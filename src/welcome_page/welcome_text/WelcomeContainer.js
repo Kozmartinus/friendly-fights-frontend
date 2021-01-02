@@ -17,7 +17,6 @@ const WelcomeContainer = styled.div`
       width: 80vw;
       height: 90vh;
       margin: 0 auto 5vh auto;
-      /* padding-top: 5vh; */
 
       display: flex;
       flex-direction: column;
