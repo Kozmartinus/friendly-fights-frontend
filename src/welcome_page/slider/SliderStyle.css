@@ -53,7 +53,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .slider {
     padding-top: 5vh;
     padding-bottom: 6vh;
