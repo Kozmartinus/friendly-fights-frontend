@@ -5,7 +5,7 @@ const UserContainer = styled.div`
   background: linear-gradient(to right, rgba(6, 6, 84, 0), rgba(6, 6, 84, 0.7));
   width: 40%;
   height: 100%;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   border-radius: 20px;
 
   .buttonBox {
@@ -52,6 +52,10 @@ const UserContainer = styled.div`
 
     .buttonBox {
       height: 10%;
+
+      button {
+        width: 25%;
+      }
     }
   }
 `;
