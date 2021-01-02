@@ -13,6 +13,18 @@ const UserFormContainer = styled.div`
     min-width: 75px;
     margin-bottom: 10px;
     border-radius: 5px;
+
+    background-color: transparent;
+    border: none;
+    border-bottom: solid black 1px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+
+    &:focus {
+      outline: none;
+      border-bottom: solid red 1px;
+      width: 75%;
+    }
   }
 
   #loginConfirmationButton {
