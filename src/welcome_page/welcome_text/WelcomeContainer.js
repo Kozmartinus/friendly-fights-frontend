@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const WelcomeContainer = styled.div`
   background-color: rgba(220, 220, 220, 0.9);
@@ -14,7 +14,8 @@ const WelcomeContainer = styled.div`
     & {
       width: 80vw;
       height: 80vh;
-      margin: 5vh auto;
+      margin: 0 auto 5vh auto;
+      padding-top: 5vh;
 
       display: flex;
       flex-direction: column;

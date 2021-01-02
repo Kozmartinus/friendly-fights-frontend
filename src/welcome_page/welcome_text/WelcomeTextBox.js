@@ -20,6 +20,7 @@ const WelcomeTextBox = styled.div`
       height: 50%;
     }
     h2 {
+      margin: 5%;
       font-size: 20px;
     }
   }

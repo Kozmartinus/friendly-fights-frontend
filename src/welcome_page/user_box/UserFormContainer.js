@@ -36,10 +36,20 @@ const UserFormContainer = styled.div`
     .socialMediaLoginButton {
       font-size: 80% !important;
       font-weight: 700;
-    }
 
-    p {
-      margin: 0;
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 880px) and (min-width: 600px) {
+    .socialMediaLoginButton {
+      width: 40px !important;
+
+      div:nth-child(3) {
+        display: none;
+      }
     }
   }
 `;
