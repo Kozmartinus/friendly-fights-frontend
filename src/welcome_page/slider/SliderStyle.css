@@ -5,49 +5,49 @@
 .slider {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   width: 100%;
-  height: 100vh;
+  height: 85vh;
   animation: slide 40s infinite;
 }
 
 @keyframes slide {
   0% {
-    background-image: url("./images/football.jpg");
+    background-image: url('./images/football.jpg');
   }
   16% {
-    background-image: url("./images/basketball.jpg");
+    background-image: url('./images/basketball.jpg');
   }
   16.01% {
-    background-image: url("./images/basketball.jpg");
+    background-image: url('./images/basketball.jpg');
   }
   33% {
-    background-image: url("./images/billiard.jpg");
+    background-image: url('./images/billiard.jpg');
   }
   33.01% {
-    background-image: url("./images/billiard.jpg");
+    background-image: url('./images/billiard.jpg');
   }
 
   50% {
-    background-image: url("./images/volleyball.jpg");
+    background-image: url('./images/volleyball.jpg');
   }
   50.01% {
-    background-image: url("./images/volleyball.jpg");
+    background-image: url('./images/volleyball.jpg');
   }
 
   66% {
-    background-image: url("./images/darts.jpg");
+    background-image: url('./images/darts.jpg');
   }
   66.01% {
-    background-image: url("./images/darts.jpg");
+    background-image: url('./images/darts.jpg');
   }
   83% {
-    background-image: url("./images/gokart.jpg");
+    background-image: url('./images/gokart.jpg');
   }
   83.01% {
-    background-image: url("./images/gokart.jpg");
+    background-image: url('./images/gokart.jpg');
   }
   100% {
-    background-image: url("./images/football.jpg");
+    background-image: url('./images/football.jpg');
   }
 }
