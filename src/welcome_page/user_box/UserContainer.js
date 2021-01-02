@@ -22,6 +22,7 @@ const UserContainer = styled.div`
       outline: none;
       cursor: pointer;
       border-bottom: black solid 3px;
+      /* font-size: 11px; */
     }
 
     .active {
@@ -55,6 +56,14 @@ const UserContainer = styled.div`
 
       button {
         width: 25%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    .buttonBox {
+      button {
+        font-size: 11px;
       }
     }
   }
