@@ -13,11 +13,11 @@ const UserContainer = styled.div`
     margin-bottom: -3px;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: flex-end;
 
     button {
-      margin-left: 20px;
+      /* margin-left: 20px; */
       height: 75%;
       width: 75px;
       outline: none;
