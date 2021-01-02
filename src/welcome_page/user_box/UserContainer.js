@@ -17,9 +17,8 @@ const UserContainer = styled.div`
     align-items: flex-end;
 
     button {
-      /* margin-left: 20px; */
-      height: 75%;
-      width: 75px;
+      min-width: 50px;
+      width: 20%;
       outline: none;
       cursor: pointer;
       border-bottom: black solid 3px;
