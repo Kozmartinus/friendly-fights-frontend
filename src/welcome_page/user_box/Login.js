@@ -18,16 +18,18 @@ function Login() {
         Forgot my password
       </p>
       <button id='loginConfirmationButton'>Login</button>
-      <GoogleLoginButton
-        className='socialMediaLoginButton'
-        onClick={() => alert('Hello')}
-        iconSize='20px'
-      />
-      <FacebookLoginButton
-        className='socialMediaLoginButton'
-        onClick={() => alert('Hello')}
-        iconSize='20px'
-      />
+      <div className='socialMediaLoginContainer'>
+        <GoogleLoginButton
+          className='socialMediaLoginButton'
+          onClick={() => alert('Hello')}
+          iconSize='20px'
+        />
+        <FacebookLoginButton
+          className='socialMediaLoginButton'
+          onClick={() => alert('Hello')}
+          iconSize='20px'
+        />
+      </div>
     </UserFormContainer>
   );
 }

@@ -32,6 +32,12 @@ const UserFormContainer = styled.div`
     font-weight: 700;
   }
 
+  .socialMediaLoginContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
   @media only screen and (max-width: 1050px) {
     .socialMediaLoginButton {
       font-size: 80% !important;
