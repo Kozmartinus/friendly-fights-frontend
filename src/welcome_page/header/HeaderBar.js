@@ -2,9 +2,8 @@ import styled from 'styled-components';
 
 const HeaderBar = styled.header`
   background-color: rgba(6, 6, 84, 0.7);
-  border-bottom: solid white 2px;
+  border-bottom: solid white 3px;
   box-sizing: border-box;
-  /* padding-bottom: -2px; */
   width: 100%;
   height: 15vh;
 

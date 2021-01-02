@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const UserFormContainer = styled.div`
   background-color: rgba(117, 117, 117, 0.5);
   text-align: center;
-  border: solid white 3px;
+  border: solid white 2px;
   border-collapse: collapse;
   border-radius: 0 0 20px 20px;
   padding: 20px 20px 0 20px;

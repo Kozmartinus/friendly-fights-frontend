@@ -22,6 +22,7 @@ const UserContainer = styled.div`
       width: 50%;
       outline: none;
       cursor: pointer;
+      border: none;
       border-bottom: white solid 3px;
       background-color: rgba(163, 163, 163);
     }
