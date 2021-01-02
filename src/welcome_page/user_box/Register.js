@@ -40,6 +40,7 @@ function Register() {
       <p>{errorMessage}</p>
       <span>Upload profile picture</span>
       <button>Browse</button>
+      <input type='file'></input>
       <br></br>
       <button id='loginConfirmationButton' onClick={checkRegistration}>
         Register

@@ -8,7 +8,8 @@ const UserFormContainer = styled.div`
   padding: 20px 20px 0 20px;
   margin: 0 10px;
 
-  input {
+  input[type='text'],
+  input[type='password'] {
     width: 50%;
     min-width: 75px;
     margin-bottom: 10px;
@@ -25,6 +26,10 @@ const UserFormContainer = styled.div`
       border-bottom: solid red 1px;
       width: 75%;
     }
+  }
+
+  input[type='file'] {
+    display: none;
   }
 
   #loginConfirmationButton {
