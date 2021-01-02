@@ -29,9 +29,13 @@ function Register() {
     <UserFormContainer>
       <input type='text' placeholder='Username' ref={userName}></input>
       <br></br>
-      <input type='text' placeholder='Password' ref={passwordOne}></input>
+      <input type='password' placeholder='Password' ref={passwordOne}></input>
       <br></br>
-      <input type='text' placeholder='Password Again' ref={passwordTwo}></input>
+      <input
+        type='password'
+        placeholder='Password Again'
+        ref={passwordTwo}
+      ></input>
       <br></br>
       <p>{errorMessage}</p>
       <span>Upload profile picture</span>
