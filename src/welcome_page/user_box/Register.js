@@ -3,6 +3,7 @@ import UserFormContainer from './UserFormContainer';
 
 function Register() {
   const [errorMessage, setErrorMessage] = useState('');
+  const [profilePicture, setProfilePicture] = useState(null);
   const userName = useRef(null);
   const passwordOne = useRef(null);
   const passwordTwo = useRef(null);
@@ -11,6 +12,14 @@ function Register() {
 
   const openFileBrowser = () => {
     fileInput.current.click();
+  };
+
+  const uploadFile = (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    const file = event.target.files[0];
+    setProfilePicture(file);
+    console.log(file);
   };
 
   const checkRegistration = () => {
@@ -46,9 +55,12 @@ function Register() {
       <p>{errorMessage}</p>
       <span>Upload profile picture</span>
       <button onClick={openFileBrowser}>Browse</button>
-      <input type='file' ref={fileInput}></input>
+      <input type='file' ref={fileInput} onChange={uploadFile}></input>
       <br></br>
-      <button id='loginConfirmationButton' onClick={checkRegistration}>
+      <button
+        id='loginConfirmationButton'
+        onClick={(e) => checkRegistration(e)}
+      >
         Register
       </button>
     </UserFormContainer>
