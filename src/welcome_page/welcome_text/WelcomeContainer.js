@@ -12,7 +12,7 @@ const WelcomeContainer = styled.div`
   border: solid white 2px;
   border-radius: 20px;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 650px) {
     & {
       width: 80vw;
       height: 90vh;

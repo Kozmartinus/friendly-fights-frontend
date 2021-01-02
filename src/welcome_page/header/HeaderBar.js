@@ -22,7 +22,7 @@ const HeaderBar = styled.header`
     text-align: center;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 650px) {
     & {
       height: 10vh;
     }

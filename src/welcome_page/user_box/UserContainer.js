@@ -4,7 +4,6 @@ const UserContainer = styled.div`
   background-color: rgba(6, 6, 84, 0.3);
   background: linear-gradient(to right, rgba(6, 6, 84, 0), rgba(6, 6, 84, 0.7));
   width: 40%;
-  /* height: 100%; */
   overflow-y: auto;
   border-radius: 20px;
 
@@ -18,7 +17,7 @@ const UserContainer = styled.div`
 
     button {
       min-width: 50px;
-      width: 20%;
+      width: 25%;
       outline: none;
       cursor: pointer;
       border-bottom: black solid 3px;
@@ -39,7 +38,7 @@ const UserContainer = styled.div`
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 650px) {
     & {
       background: linear-gradient(
         to bottom,
@@ -60,9 +59,10 @@ const UserContainer = styled.div`
     }
   }
 
-  @media only screen and (max-width: 1300px) {
+  @media only screen and (max-width: 1200px) {
     .buttonBox {
       button {
+        padding: 0;
         font-size: 11px;
       }
     }

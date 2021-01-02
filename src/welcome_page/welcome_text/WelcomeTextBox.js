@@ -15,7 +15,7 @@ const WelcomeTextBox = styled.div`
     margin: 10% 0;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 650px) {
     & {
       width: 100%;
       height: 50%;
