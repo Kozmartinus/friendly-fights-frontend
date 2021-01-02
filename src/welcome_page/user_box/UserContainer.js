@@ -6,36 +6,38 @@ const UserContainer = styled.div`
   width: 40%;
   overflow-y: auto;
   border-radius: 20px;
+  color: white;
 
   .buttonBox {
     height: 10%;
     margin-bottom: -3px;
     margin-top: 10%;
+    padding: 0 10px;
 
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
 
     button {
-      min-width: 50px;
-      width: 25%;
+      width: 50%;
       outline: none;
       cursor: pointer;
-      border-bottom: black solid 3px;
-      /* font-size: 11px; */
+      border-bottom: white solid 3px;
+      background-color: rgba(163, 163, 163);
     }
 
     .active {
-      border: black solid 3px;
+      border: white solid 3px;
       font-weight: 750;
+      background-color: white;
     }
 
     #loginModeSwitchButton {
-      background-color: yellow;
+      border-radius: 15px 0 0;
     }
 
     #registerModeSwitchButton {
-      background-color: pink;
+      border-radius: 0 15px 0 0;
     }
   }
 
@@ -54,10 +56,6 @@ const UserContainer = styled.div`
     .buttonBox {
       margin-top: 0;
       height: 10%;
-
-      button {
-        width: 25%;
-      }
     }
   }
 

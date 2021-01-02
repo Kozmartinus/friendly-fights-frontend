@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 const UserFormContainer = styled.div`
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(117, 117, 117, 0.5);
   text-align: center;
-  border: solid black 3px;
+  border: solid white 3px;
   border-collapse: collapse;
-  border-radius: 20px;
+  border-radius: 0 0 20px 20px;
   padding: 20px 20px 0 20px;
   margin: 0 10px;
 
@@ -15,6 +15,8 @@ const UserFormContainer = styled.div`
     min-width: 75px;
     margin-bottom: 10px;
     border-radius: 5px;
+    color: white;
+    font-weight: 750;
 
     background-color: transparent;
     border: none;
@@ -24,8 +26,13 @@ const UserFormContainer = styled.div`
 
     &:focus {
       outline: none;
-      border-bottom: solid red 1px;
+      border-bottom: solid white 2px;
       width: 75%;
+    }
+
+    &::placeholder {
+      color: white;
+      font-weight: normal;
     }
   }
 
