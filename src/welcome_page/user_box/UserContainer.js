@@ -27,6 +27,15 @@ const UserContainer = styled.div`
 
     .active {
       border: black solid 3px;
+      font-weight: 750;
+    }
+
+    #loginModeSwitchButton {
+      background-color: yellow;
+    }
+
+    #registerModeSwitchButton {
+      background-color: pink;
     }
   }
 
