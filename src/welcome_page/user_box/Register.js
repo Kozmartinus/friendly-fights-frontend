@@ -53,8 +53,14 @@ function Register() {
       ></input>
       <br></br>
       <p>{errorMessage}</p>
-      <span>Upload profile picture</span>
-      <button onClick={openFileBrowser}>Browse</button>
+      <span>
+        {profilePicture !== null
+          ? profilePicture.name
+          : 'Upload profile picture'}
+      </span>
+      <button onClick={openFileBrowser}>
+        {profilePicture === null ? 'Browse' : 'Modify'}
+      </button>
       <input type='file' ref={fileInput} onChange={uploadFile}></input>
       <br></br>
       <button
