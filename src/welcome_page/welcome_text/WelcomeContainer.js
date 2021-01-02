@@ -15,7 +15,7 @@ const WelcomeContainer = styled.div`
   @media only screen and (max-width: 600px) {
     & {
       width: 80vw;
-      height: 80vh;
+      height: 90vh;
       margin: 0 auto 5vh auto;
       /* padding-top: 5vh; */
 

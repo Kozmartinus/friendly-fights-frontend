@@ -56,6 +56,7 @@
 @media only screen and (max-width: 600px) {
   .slider {
     padding-top: 5vh;
+    padding-bottom: 6vh;
     height: 85vh;
   }
 }
