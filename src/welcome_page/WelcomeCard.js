@@ -1,5 +1,5 @@
 import React from 'react';
-import WelcomeContainer from './welcome_text/WelcomeContainer';
+import WelcomeContainer from './WelcomeContainer';
 import WelcomeTextBox from './welcome_text/WelcomeTextBox';
 import UserBox from './user_box/UserBox';
 
