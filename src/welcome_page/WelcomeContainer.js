@@ -1,7 +1,12 @@
 import styled from 'styled-components';
 
 const WelcomeContainer = styled.div`
-  background-color: rgba(220, 220, 220, 0.9);
+  background: linear-gradient(
+    to right,
+    rgba(75, 77, 124, 0.9),
+    rgba(219, 219, 219, 0.9),
+    rgba(75, 77, 124, 0.9)
+  );
   width: 60vw;
   height: 60vh;
   margin: 0 auto 12.5vh auto;
@@ -20,6 +25,13 @@ const WelcomeContainer = styled.div`
 
       display: flex;
       flex-direction: column;
+
+      background: linear-gradient(
+        to bottom,
+        rgba(75, 77, 124, 0.9),
+        rgba(219, 219, 219, 0.9),
+        rgba(75, 77, 124, 0.9)
+      );
     }
   }
 `;
