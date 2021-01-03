@@ -12,7 +12,7 @@ const WelcomeContainer = styled.div`
   background-clip: content-box;
   display: flex;
   flex-wrap: wrap;
-  border: solid white 3px;
+  border: ${(props) => props.theme.borderPrimary};
   border-radius: 20px;
 
   @media only screen and (max-width: 650px) {
