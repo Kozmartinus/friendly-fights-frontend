@@ -6,6 +6,7 @@ const mainTheme = {
     rgba(219, 219, 219, 0.9),
     rgba(75, 77, 124, 0.9)`,
   borderRadius: '20px',
+  inactiveButtonColor: '',
   metallicBackgroundNormal: (opacity) => `background-image: linear-gradient(
     to right,
     rgba(128, 128, 128, ${opacity}),

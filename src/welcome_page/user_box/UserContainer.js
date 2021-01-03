@@ -20,12 +20,12 @@ const UserContainer = styled.div`
       outline: none;
       cursor: pointer;
       border: none;
-      border-bottom: white solid 3px;
+      border-bottom: ${(props) => props.theme.borderPrimary};
       background-color: rgba(163, 163, 163);
     }
 
     .active {
-      border: white solid 3px;
+      border: ${(props) => props.theme.borderPrimary};
       font-weight: 750;
       background-color: white;
     }
