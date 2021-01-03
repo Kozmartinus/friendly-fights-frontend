@@ -21,13 +21,13 @@ const UserContainer = styled.div`
       cursor: pointer;
       border: none;
       border-bottom: ${(props) => props.theme.borderPrimary};
-      background-color: rgba(163, 163, 163);
+      background-color: ${(props) => props.theme.inactiveButtonColor};
     }
 
     .active {
       border: ${(props) => props.theme.borderPrimary};
       font-weight: 750;
-      background-color: white;
+      background-color: ${(props) => props.theme.activeButtonColor};
     }
 
     #loginModeSwitchButton {
