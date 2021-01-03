@@ -21,7 +21,7 @@ function HomeContainer() {
     <WideContainer>
       {groups.map((group) => {
         return (
-          <GroupCard id={group.id} title={group.title} image={group.image} />
+          <GroupCard key={group.id} title={group.title} image={group.image} />
         );
       })}
     </WideContainer>
