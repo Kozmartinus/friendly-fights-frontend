@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const HeaderBar = styled.header`
-  background-color: rgba(6, 6, 84, 0.7);
-  border-bottom: solid white 3px;
+  background-color: ${(props) => props.theme.headerColor};
+  border-bottom: ${(props) => props.theme.borderPrimary};
   box-sizing: border-box;
   width: 100%;
   height: 15vh;
