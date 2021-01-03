@@ -3,9 +3,7 @@ import styled from 'styled-components';
 const WelcomeContainer = styled.div`
   background: linear-gradient(
     to right,
-    rgba(75, 77, 124, 0.9),
-    rgba(219, 219, 219, 0.9),
-    rgba(75, 77, 124, 0.9)
+    ${(props) => props.theme.tripleGradientBackground}
   );
   width: 60vw;
   height: 60vh;
@@ -28,9 +26,7 @@ const WelcomeContainer = styled.div`
 
       background: linear-gradient(
         to bottom,
-        rgba(75, 77, 124, 0.9),
-        rgba(219, 219, 219, 0.9),
-        rgba(75, 77, 124, 0.9)
+        ${(props) => props.theme.tripleGradientBackground}
       );
     }
   }
