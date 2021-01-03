@@ -8,12 +8,12 @@ function Header() {
   return (
     <HeaderBar>
       <div className='imageContainer'>
-        <img src={logo} height='100%' alt='logo'></img>
+        <img src={logo} height='80%' alt='logo'></img>
       </div>
       <h1>Friendly Fights</h1>
-      <div className='imageContainer'>
-        <img src={home} height='100%' alt='home'></img>
-        <img src={profile} height='100%' alt='profile'></img>
+      <div className='imageContainer' id='right-icon-container'>
+        <img src={home} height='78.5%' alt='home'></img>
+        <img src={profile} height='80%' alt='profile'></img>
       </div>
     </HeaderBar>
   );

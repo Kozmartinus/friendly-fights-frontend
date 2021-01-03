@@ -14,6 +14,18 @@ const HeaderBar = styled.header`
   .imageContainer {
     height: 80%;
     width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    img {
+      margin: 0 0.5vw;
+    }
+  }
+
+  #right-icon-container {
+    display: flex;
+    justify-content: flex-end;
   }
 
   h1 {
