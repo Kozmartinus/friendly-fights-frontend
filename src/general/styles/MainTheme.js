@@ -8,6 +8,7 @@ const mainTheme = {
   borderRadius: '20px',
   inactiveButtonColor: 'rgba(163, 163, 163)',
   activeButtonColor: 'white',
+  greyBackgroundColor: 'rgba(117, 117, 117, 0.5)',
   metallicBackgroundNormal: (opacity) => `background-image: linear-gradient(
     to right,
     rgba(128, 128, 128, ${opacity}),

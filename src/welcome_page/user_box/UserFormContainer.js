@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 
 const UserFormContainer = styled.div`
-  background-color: rgba(117, 117, 117, 0.5);
+  background-color: ${(props) => props.theme.greyBackgroundColor};
   text-align: center;
-  border: solid white 2px;
+  border: ${(props) => props.theme.borderSecondary};
   border-collapse: collapse;
-  border-radius: 0 0 20px 20px;
+  border-radius: 0 0 ${(props) => props.theme.borderRadius}
+    ${(props) => props.theme.borderRadius};
+  padding: 20px 20px 0 20px;
   padding: 20px 20px 0 20px;
   margin: 0 10px;
 
