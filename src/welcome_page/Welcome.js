@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./header/Header";
+import Header from "../general_elements/header/Header";
 import Slider from "./slider/Slider";
 
 const Welcome = () => {
