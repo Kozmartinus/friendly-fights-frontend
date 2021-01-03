@@ -1,7 +1,13 @@
 import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Welcome from './welcome_page/Welcome';
 
-function App() {
-  return <p>Application content</p>;
-}
+const App = () => {
+  return (
+    <Router>
+      <Route exact path='/' component={Welcome} />
+    </Router>
+  );
+};
 
 export default App;
