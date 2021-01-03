@@ -3,7 +3,6 @@ import styled from 'styled-components';
 const UserContainer = styled.div`
   width: 40%;
   overflow-y: auto;
-  border-radius: 20px;
   color: white;
 
   .buttonBox {
@@ -44,7 +43,6 @@ const UserContainer = styled.div`
     & {
       width: 100%;
       height: 50%;
-      border-radius: 0 0 20px 20px;
     }
 
     .buttonBox {

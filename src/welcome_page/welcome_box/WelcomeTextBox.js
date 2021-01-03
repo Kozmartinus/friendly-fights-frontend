@@ -4,7 +4,6 @@ const WelcomeTextBox = styled.div`
   width: 60%;
   height: 100%;
   text-align: center;
-  border-radius: 20px;
 
   h2 {
     margin: 10% 0;
@@ -14,7 +13,6 @@ const WelcomeTextBox = styled.div`
     & {
       width: 100%;
       height: 50%;
-      border-radius: 20px 20px 0 0;
     }
     h2 {
       margin: 5%;
