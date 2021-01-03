@@ -9,12 +9,7 @@ const mainTheme = {
   inactiveButtonColor: 'rgba(163, 163, 163)',
   activeButtonColor: 'white',
   greyBackgroundColor: 'rgba(117, 117, 117, 0.5)',
-  metallicBackgroundNormal: (opacity) => `background-image: linear-gradient(
-    to right,
-    rgba(128, 128, 128, ${opacity}),
-    rgba(211, 211, 211, ${opacity}),
-    rgba(128, 128, 128, ${opacity})
-  )`,
+  mobileDeviceSizeLimit: '650px',
 };
 
 export default mainTheme;

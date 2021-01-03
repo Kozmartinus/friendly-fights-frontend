@@ -15,7 +15,8 @@ const WelcomeContainer = styled.div`
   border: ${(props) => props.theme.borderPrimary};
   border-radius: ${(props) => props.theme.borderRadius};
 
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: ${(props) =>
+      props.theme.mobileDeviceSizeLimit}) {
     & {
       width: 80vw;
       height: 90vh;

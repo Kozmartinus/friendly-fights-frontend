@@ -39,7 +39,8 @@ const UserContainer = styled.div`
     }
   }
 
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: ${(props) =>
+      props.theme.mobileDeviceSizeLimit}) {
     & {
       width: 100%;
       height: 50%;

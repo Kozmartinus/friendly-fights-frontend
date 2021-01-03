@@ -21,7 +21,8 @@ const HeaderBar = styled.header`
     text-align: center;
   }
 
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: ${(props) =>
+      props.theme.mobileDeviceSizeLimit}) {
     & {
       height: 10vh;
     }

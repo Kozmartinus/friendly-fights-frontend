@@ -76,7 +76,8 @@ const UserFormContainer = styled.div`
     }
   }
 
-  @media only screen and (max-width: 880px) and (min-width: 650px) {
+  @media only screen and (max-width: 880px) and (min-width: ${(props) =>
+      props.theme.mobileDeviceSizeLimit}) {
     .socialMediaLoginButton {
       width: 40px !important;
 
