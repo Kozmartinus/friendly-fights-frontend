@@ -1,5 +1,5 @@
 import React from "react";
-import WelcomeCard from "../welcome_text/WelcomeCard";
+import WelcomeCard from "../WelcomeCard";
 import "./SliderStyle.css";
 
 function Slider() {
