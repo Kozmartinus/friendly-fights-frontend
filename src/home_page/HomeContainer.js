@@ -14,6 +14,44 @@ const groups = [
     title: "mennyei",
     image: "images/group_images/new_default_group.jpeg",
   },
+  {
+    id: 4,
+    title: "csokihiány",
+    image: "images/group_images/csokihiány.jpg",
+  },
+  { id: 5, title: "chade", image: "images/group_images/default.jpg" },
+  {
+    id: 6,
+    title: "mennyei",
+    image: "images/group_images/new_default_group.jpeg",
+  },
+  {
+    id: 7,
+    title: "csokihiány",
+    image: "images/group_images/csokihiány.jpg",
+  },
+  { id: 8, title: "chade", image: "images/group_images/default.jpg" },
+  {
+    id: 9,
+    title: "mennyei",
+    image: "images/group_images/new_default_group.jpeg",
+  },
+  {
+    id: 10,
+    title: "csokihiány",
+    image: "images/group_images/csokihiány.jpg",
+  },
+  { id: 11, title: "chade", image: "images/group_images/default.jpg" },
+  {
+    id: 12,
+    title: "mennyei",
+    image: "images/group_images/new_default_group.jpeg",
+  },
+  {
+    id: 13,
+    title: "mennyei",
+    image: "images/group_images/new_default_group.jpeg",
+  },
 ];
 
 function HomeContainer() {
