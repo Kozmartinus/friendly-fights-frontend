@@ -1,6 +1,7 @@
 import React from "react";
 import WideContainer from "./WideContainer";
 import GroupCard from "./GroupCard";
+import AddGroupCard from "./AddGroupCard";
 
 const groups = [
   {
@@ -55,13 +56,32 @@ const groups = [
 ];
 
 function HomeContainer() {
+  const enterGroup = (groupId) => {
+    alert("entered group " + groupId);
+  };
+
+  const addNewGroup = () => {
+    alert("new group created");
+  };
+
   return (
     <WideContainer>
       {groups.map((group) => {
         return (
-          <GroupCard key={group.id} title={group.title} image={group.image} />
+          <GroupCard
+            key={group.id}
+            title={group.title}
+            image={group.image}
+            id={group.id}
+            clickHandler={enterGroup}
+          />
         );
       })}
+      <AddGroupCard
+        image="images/plus.png"
+        plus="true"
+        clickHandler={addNewGroup}
+      />
     </WideContainer>
   );
 }
