@@ -23,4 +23,4 @@ Our application if first and utmost designed for groups of friend having fun tog
 - create groups for your friends
 - organize competitions for your groups
 - register and follow results, standings and statistics
-- be part of ass many groups of friends as you would like to and see your overall results
+- be part of as many groups of friends as you would like to and see your overall results
